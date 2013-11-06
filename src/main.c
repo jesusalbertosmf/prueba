@@ -19,6 +19,7 @@ typedef unsigned int uint32_t;
 __IO uint32_t PTA6;
 
 
+
 typedef struct {
   union {                                          /* offset: 0x0 */
     __IO uint32_t RGPIO[135];                        /**< Software MUX Pad Control Register 0..Software MUX Pad Control Register 134, array offset: 0x0, array step: 0x4 */
